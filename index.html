@@ -27,28 +27,28 @@
             </div>
             <div id="forms">
                 <form>
-                <fieldset>
-                    <div>
+                <fieldset class="userData">
+                    <div class="labelAndForms">
                         <label for="firstName">First Name:</label>
-                        <input type="text" id="city" name="firstName">
-                    <div> 
-                    <div>
+                        <input type="text" id="firstName" name="firstName" maxlength="25" pattern="([a-zA-Z]){1,25}">
+                    </div> 
+                    <div class="labelAndForms">
                         <label for="lastName">Last Name:</label>
-                        <input type="text" id="city" name="lastName">
+                        <input type="text" id="lastName" name="lastName" maxlength="25" pattern="([a-zA-Z]){1,25}"">
                     </div>
-                     <div>
+                    <div class="labelAndForms">
                         <label for="email">Email:</label>
-                        <input type="email" id="city" name="email">
+                        <input type="email" id="email" name="email" maxlength="30">
                     </div>
-                    <div>
+                    <div class="labelAndForms">
                         <label for="phone">Phone Number:</label>
-                        <input type="tel" id="city" name="phone">
+                        <input type="tel" id="phone" name="phone"maxlength="12" pattern="([0-9]){1,12}">
                     </div>
                 </fieldset>   
-                <fieldset>
-                    <div>
+                <fieldset class="userData">
+                    <div class="labelAndForms">
                         <label for="user_password">Password:</label>
-                        <input type="password" id="user_password" name="password">
+                        <input type="password" id="user_password" name="password" minlength="8" maxlength="20" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="The password must contain at least 1 number, 1 downcase, 1 uppercase and 1 especial character">
                     </div>
                 </fieldset>
                 <button type="submit" id="submitButton">Join Now</button>
