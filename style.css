@@ -59,7 +59,7 @@ body, html{
 }
 
 #credits{
-    font-size: 12px;
+    font-size: 20px;
     align-self: flex-end;
     background-color:rgba(32, 56, 85, 0.6) ;
     font-weight: bold;
@@ -96,7 +96,7 @@ body, html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: max(calc( 19px + calc(2.5vw - 2em)),19px);
+    font-size: max(calc( 18px + calc(2.2vw - 1.9em)),18px);
     gap: 20px;
     padding-left: max(40px, 4vw);
     padding-right: max(40px, 4vw);
@@ -109,7 +109,7 @@ body, html{
 
 #forms{
     height: 45vh;
-    font-size: max(calc( 17px + calc(2.2vw - 2em)), 17px);
+    font-size: max(calc( 25px + calc(50vw - 2em)), 25px);
 }
 
 
@@ -126,10 +126,10 @@ body, html{
 
 span{
     height: 17px;
-    margin-top: 3px;
-    font-size: 14px;
+    margin-top: 7px;
+    font-size: 18px;
     color: #BE4B9F;
-    font-weight: 20px;
+    font-weight: bold;
 }
 
 
@@ -139,7 +139,7 @@ span{
     justify-content: flex-start;
     flex-wrap: wrap;
     padding-left: 4vw;
-    padding-right: 5vw;
+    padding-right: 4vw;
     padding-top: 15px;
     background-color:#305380;
     column-gap: 80px;
@@ -148,22 +148,22 @@ span{
 .labelAndForms{
     display: flex;
     flex-direction: column;
-    width: max(30%, 150px);
+    width: max(35%, 150px);
     margin-right: 25px;
     margin-bottom: 15px;
-    font-size: max(calc( 15px + calc(1.2vw - .8em)), 15px);
+    font-size: max(calc( 26px + calc(2vw - 1.8em)), 26px);
    
 
 }
 input{
     appearance: none;
     border: 2px solid #F4E1EF ;
-    width: 190px;
-    border-radius: 5px;
+    width: 300px;
+    border-radius: 8px;
     background-color: #F0F4F9;
-    margin-left: 25px;
+    margin-left: 40px;
     font-size: max(calc( 14px + calc(2vw - 1.8em)), 14px);
-    height:20px;
+    height:35px;
   }
 
 fieldset{
@@ -174,15 +174,15 @@ fieldset{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35px;
-    width: max(10vw, 150px);
+    height: 50px;
+    width: max(12vw, 200px);
     border-radius: 10px;
     background-color: #A64486;
     border: 1px solid #8C3274;
     text-align: center;
     color: #F4E1EF;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     box-shadow: 1px 1px 4px #2D1124;
     margin-top: 10px;
