@@ -92,7 +92,7 @@ body, html{
 }
 
 #greetingsMsg{
-    height: 40vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,7 +108,7 @@ body, html{
 }
 
 #forms{
-    height: 40vh;
+    height: 45vh;
     font-size: max(calc( 17px + calc(2.2vw - 2em)), 17px);
 }
 
